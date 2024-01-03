@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/gsap.min.js"
+      integrity="sha512-EZI2cBcGPnmR89wTgVnN3602Yyi7muWo8y1B3a8WmIv1J9tYG+udH4LvmYjLiGp37yHB7FfaPBo8ly178m9g4Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/ScrollTrigger.min.js"
+      integrity="sha512-OzC82YiH3UmMMs6Ydd9f2i7mS+UFL5f977iIoJ6oy07AJT+ePds9QOEtqXztSH29Nzua59fYS36knmMcv79GOg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+  </head>
+  <body>
+    <div id="#nav"
+      class="h-[10vh] w-full flex items-center justify-between px-5 py-0 fixed z-[99999]"
+    >
+      <div>
+        <h1 class="text-5xl font-medium">D</h1>
+      </div>
+      <div class="flex items-center justify-between gap-3">
+        <h1>Menu</h1>
+        <div class="h-[50px] w-[50px] bg-black rounded-full"></div>
+      </div>
+    </div>
+    <div id="main" class="overflow-hidden w-full relative">
+      <div id="page1" class="min-h-[100vh] w-full bg-white relative flex">
+        <div
+          class="h-[100%] w-full flex justify-around items-center mt-[20%] px-8"
+        >
+          <div class="h-[700px] w-[50%]">
+            <video
+              class="h-[100%] w-[100%] object-cover"
+              loop
+              autoplay
+              muted
+              src="https://player.vimeo.com/progressive_redirect/playback/843200618/rendition/1080p/file.mp4?loc=external&signature=e367b1f00745e52dd54f909d9260f853245f515ab17265aa3933b61222dc5d44"
+            ></video>
+          </div>
+          <p class="w-[30%] ml-14 mt-[20%] flex flex-col">
+            Together, we turn your challenges into opportunities and your goals
+            into reality through collaboration, innovation, and design.
+            <button
+              class="h-[6vh] w-[30%] border-black border-[1px] mt-5 rounded-full"
+            >
+              Explore us
+              <!-- <button class="h-[6vh] w-[30%] bg-blue-300 rounded-full"></button> -->
+            </button>
+          </p>
+        </div>
+        <div
+          class="w-100% flex-col absolute top-[30%] left-[54%] items-center justify-start"
+        >
+          <p class="ml-[25%]">Spatial design, Visualisation & Interaction</p>
+          <h1 class="text-8xl scale-50 shrink-0">
+            Spatial design from an eye-level perspective
+          </h1>
+        </div>
+      </div>
+      <div id="page2"
+        class="min-h-screen w-full py-[200px] gap-[200px] flex flex-col"
+      >
+        <div class="h-[30vh] w-full flex justify-between items-center px-24">
+          <p class="w-[30%]">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur
+            hic accusantium saepe nesciunt dolorem laudantium quidem suscipit
+            similique molestias voluptates? Lorem, ipsum dolor sit amet
+            consectetur adipisicing elit.
+            <button
+              class="h-[6vh] w-[30%] border-black border-[1px] mt-5 rounded-full"
+            >
+              explore
+            </button>
+          </p>
+          <div class="h-full w-[250px] bg-black">
+            <img
+              class="h-[100%] w-[100%] object-cover"
+              src="https://images.unsplash.com/photo-1466768770636-df70d3c6e2d6?q=80&w=1372&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="h-[30vh] w-full flex justify-between items-center px-24">
+          <div class="h-full w-[250px] bg-black">
+            <img
+              class="h-[100%] w-[100%] object-cover"
+              src="https://images.unsplash.com/photo-1465325955623-a2218343bed4?q=80&w=1414&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              alt=""
+            />
+          </div>
+          <p class="w-[30%]">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur
+            hic accusantium saepe nesciunt dolorem laudantium quidem suscipit
+            similique molestias voluptates? Lorem.
+            <button
+              class="h-[6vh] w-[30%] border-black border-[1px] mt-5 rounded-full"
+            >
+              explore
+            </button>
+          </p>
+        </div>
+        <div class="h-[30vh] w-full flex justify-between items-center px-24">
+          <p class="w-[30%] flex flex-col">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur
+            hic accusantium saepe nesciunt dolorem laudantium quidem suscipit
+            similique?
+            <button
+              class="h-[6vh] w-[30%] border-black border-[1px] mt-5 rounded-full"
+            >
+              explore
+            </button>
+          </p>
+          <div class="h-full w-[250px] bg-black">
+            <img
+              class="h-[100%] w-[100%] object-cover"
+              src="https://images.unsplash.com/photo-1613922919860-963f77428475?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="h-[30vh] w-full flex justify-between items-center px-24">
+          <div class="h-full w-[250px] bg-black">
+            <img
+              class="h-[100%] w-[100%] object-cover"
+              src="https://images.unsplash.com/photo-1613969673101-c982c30287f2?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              alt=""
+            />
+          </div>
+          <p class="w-[30%]">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur
+            hic accusantium saepe nesciunt dolorem laudantium quidem suscipit
+            similique molestias voluptates? Lorem ipsum dolor sit amet
+            consectetur adipisicing elit. Saepe dolorem culpa sint sed quos
+            nihil cum sapiente nam illo soluta, deserunt sequi laboriosam
+            voluptates perspiciatis nisi dolores
+            <button
+              class="h-[6vh] w-[30%] border-black border-[1px] mt-5 rounded-full"
+            >
+              explore
+            </button>
+          </p>
+        </div>
+      </div>
+      
+          <div id="page3" class="relative h-screen w-[100vw] bg-slate-600">
+              <canvas id="mycanvas" class="max-h-[100vh] max-w-[100vw] bg-red-800"></canvas>
+              </div>
+         
+              <div id="page4" class="h-screen w-full bg-orange-500"></div>
+
+    </div>
+
+
+    <script>
+      gsap.registerPlugin(ScrollTrigger);
+
+      // Using Locomotive Scroll from Locomotive https://github.com/locomotivemtl/locomotive-scroll
+
+      const locoScroll = new LocomotiveScroll({
+        el: document.querySelector("#main"),
+        smooth: true,
+        multiplier:.6
+      });
+
+
+const canvas = document.querySelector("#mycanvas");
+const context = canvas.getContext("2d");
+
+canvas.width = window.innerWidth;
+canvas.height = window.innerHeight;
+
+
+window.addEventListener("resize", function () {
+canvas.width = window.innerWidth;
+canvas.height = window.innerHeight;
+render();
+});
+
+function files(index) {
+var data = `
+     canvas real [MConverter.eu]/00001.png canvas real [MConverter.eu]/00002.png canvas real [MConverter.eu]/00003.png canvas real [MConverter.eu]/00004.png canvas real [MConverter.eu]/00005.png canvas real [MConverter.eu]/00006.png canvas real [MConverter.eu]/00007.png canvas real [MConverter.eu]/00008.png canvas real [MConverter.eu]/00009.png canvas real [MConverter.eu]/00010.png canvas real [MConverter.eu]/00011.png canvas real [MConverter.eu]/00012.png canvas real [MConverter.eu]/00013.png canvas real [MConverter.eu]/00014.png canvas real [MConverter.eu]/00015.png canvas real [MConverter.eu]/00016.png canvas real [MConverter.eu]/00017.png canvas real [MConverter.eu]/00018.png canvas real [MConverter.eu]/00019.png canvas real [MConverter.eu]/00020.png canvas real [MConverter.eu]/00021.png canvas real [MConverter.eu]/00022.png canvas real [MConverter.eu]/00023.png canvas real [MConverter.eu]/00024.png canvas real [MConverter.eu]/00025.png canvas real [MConverter.eu]/00026.png canvas real [MConverter.eu]/00027.png canvas real [MConverter.eu]/00028.png canvas real [MConverter.eu]/00029.png canvas real [MConverter.eu]/00030.png canvas real [MConverter.eu]/00031.png canvas real [MConverter.eu]/00032.png canvas real [MConverter.eu]/00033.png canvas real [MConverter.eu]/00034.png canvas real [MConverter.eu]/00035.png canvas real [MConverter.eu]/00036.png canvas real [MConverter.eu]/00037.png canvas real [MConverter.eu]/00038.png canvas real [MConverter.eu]/00039.png canvas real [MConverter.eu]/00040.png canvas real [MConverter.eu]/00041.png canvas real [MConverter.eu]/00042.png canvas real [MConverter.eu]/00043.png canvas real [MConverter.eu]/00044.png canvas real [MConverter.eu]/00045.png canvas real [MConverter.eu]/00046.png canvas real [MConverter.eu]/00047.png canvas real [MConverter.eu]/00048.png canvas real [MConverter.eu]/00049.png canvas real [MConverter.eu]/00050.png canvas real [MConverter.eu]/00051.png canvas real [MConverter.eu]/00052.png canvas real [MConverter.eu]/00053.png canvas real [MConverter.eu]/00054.png canvas real [MConverter.eu]/00055.png canvas real [MConverter.eu]/00056.png canvas real [MConverter.eu]/00057.png canvas real [MConverter.eu]/00058.png canvas real [MConverter.eu]/00059.png canvas real [MConverter.eu]/00060.png canvas real [MConverter.eu]/00061.png canvas real [MConverter.eu]/00062.png canvas real [MConverter.eu]/00063.png canvas real [MConverter.eu]/00064.png canvas real [MConverter.eu]/00065.png canvas real [MConverter.eu]/00066.png canvas real [MConverter.eu]/00067.png canvas real [MConverter.eu]/00068.png canvas real [MConverter.eu]/00069.png canvas real [MConverter.eu]/00070.png canvas real [MConverter.eu]/00071.png canvas real [MConverter.eu]/00072.png canvas real [MConverter.eu]/00073.png canvas real [MConverter.eu]/00074.png canvas real [MConverter.eu]/00075.png canvas real [MConverter.eu]/00076.png canvas real [MConverter.eu]/00077.png canvas real [MConverter.eu]/00078.png canvas real [MConverter.eu]/00079.png canvas real [MConverter.eu]/00080.png canvas real [MConverter.eu]/00081.png canvas real [MConverter.eu]/00082.png canvas real [MConverter.eu]/00083.png canvas real [MConverter.eu]/00084.png canvas real [MConverter.eu]/00085.png canvas real [MConverter.eu]/00086.png canvas real [MConverter.eu]/00087.png canvas real [MConverter.eu]/00088.png canvas real [MConverter.eu]/00089.png canvas real [MConverter.eu]/00090.png canvas real [MConverter.eu]/00091.png canvas real [MConverter.eu]/00092.png canvas real [MConverter.eu]/00093.png canvas real [MConverter.eu]/00094.png canvas real [MConverter.eu]/00095.png canvas real [MConverter.eu]/00096.png canvas real [MConverter.eu]/00097.png canvas real [MConverter.eu]/00098.png canvas real [MConverter.eu]/00099.png canvas real [MConverter.eu]/00100.png canvas real [MConverter.eu]/00101.png canvas real [MConverter.eu]/00102.png canvas real [MConverter.eu]/00103.png canvas real [MConverter.eu]/00104.png canvas real [MConverter.eu]/00105.png canvas real [MConverter.eu]/00106.png canvas real [MConverter.eu]/00107.png canvas real [MConverter.eu]/00108.png canvas real [MConverter.eu]/00109.png canvas real [MConverter.eu]/00110.png canvas real [MConverter.eu]/00111.png canvas real [MConverter.eu]/00112.png canvas real [MConverter.eu]/00113.png canvas real [MConverter.eu]/00114.png canvas real [MConverter.eu]/00115.png canvas real [MConverter.eu]/00116.png canvas real [MConverter.eu]/00117.png canvas real [MConverter.eu]/00118.png canvas real [MConverter.eu]/00119.png canvas real [MConverter.eu]/00120.png canvas real [MConverter.eu]/00121.png canvas real [MConverter.eu]/00122.png canvas real [MConverter.eu]/00123.png canvas real [MConverter.eu]/00124.png canvas real [MConverter.eu]/00125.png canvas real [MConverter.eu]/00126.png canvas real [MConverter.eu]/00127.png canvas real [MConverter.eu]/00128.png canvas real [MConverter.eu]/00129.png canvas real [MConverter.eu]/00130.png canvas real [MConverter.eu]/00131.png canvas real [MConverter.eu]/00132.png canvas real [MConverter.eu]/00133.png canvas real [MConverter.eu]/00134.png canvas real [MConverter.eu]/00135.png canvas real [MConverter.eu]/00136.png canvas real [MConverter.eu]/00137.png canvas real [MConverter.eu]/00138.png canvas real [MConverter.eu]/00139.png canvas real [MConverter.eu]/00140.png canvas real [MConverter.eu]/00141.png canvas real [MConverter.eu]/00142.png canvas real [MConverter.eu]/00143.png canvas real [MConverter.eu]/00144.png canvas real [MConverter.eu]/00145.png canvas real [MConverter.eu]/00146.png canvas real [MConverter.eu]/00147.png canvas real [MConverter.eu]/00148.png canvas real [MConverter.eu]/00149.png canvas real [MConverter.eu]/00150.png canvas real [MConverter.eu]/00151.png canvas real [MConverter.eu]/00152.png canvas real [MConverter.eu]/00153.png canvas real [MConverter.eu]/00154.png canvas real [MConverter.eu]/00155.png canvas real [MConverter.eu]/00156.png canvas real [MConverter.eu]/00157.png canvas real [MConverter.eu]/00158.png canvas real [MConverter.eu]/00159.png canvas real [MConverter.eu]/00160.png canvas real [MConverter.eu]/00161.png canvas real [MConverter.eu]/00162.png canvas real [MConverter.eu]/00163.png canvas real [MConverter.eu]/00164.png canvas real [MConverter.eu]/00165.png canvas real [MConverter.eu]/00166.png canvas real [MConverter.eu]/00167.png canvas real [MConverter.eu]/00168.png canvas real [MConverter.eu]/00169.png canvas real [MConverter.eu]/00170.png canvas real [MConverter.eu]/00171.png canvas real [MConverter.eu]/00172.png canvas real [MConverter.eu]/00173.png canvas real [MConverter.eu]/00174.png canvas real [MConverter.eu]/00175.png canvas real [MConverter.eu]/00176.png canvas real [MConverter.eu]/00177.png canvas real [MConverter.eu]/00178.png canvas real [MConverter.eu]/00179.png canvas real [MConverter.eu]/00180.png canvas real [MConverter.eu]/00181.png canvas real [MConverter.eu]/00182.png canvas real [MConverter.eu]/00183.png canvas real [MConverter.eu]/00184.png canvas real [MConverter.eu]/00185.png canvas real [MConverter.eu]/00186.png canvas real [MConverter.eu]/00187.png canvas real [MConverter.eu]/00188.png canvas real [MConverter.eu]/00189.png canvas real [MConverter.eu]/00190.png canvas real [MConverter.eu]/00191.png canvas real [MConverter.eu]/00192.png canvas real [MConverter.eu]/00193.png canvas real [MConverter.eu]/00194.png canvas real [MConverter.eu]/00195.png canvas real [MConverter.eu]/00196.png canvas real [MConverter.eu]/00197.png canvas real [MConverter.eu]/00198.png canvas real [MConverter.eu]/00199.png canvas real [MConverter.eu]/00200.png canvas real [MConverter.eu]/00201.png canvas real [MConverter.eu]/00202.png canvas real [MConverter.eu]/00203.png canvas real [MConverter.eu]/00204.png canvas real [MConverter.eu]/00205.png canvas real [MConverter.eu]/00206.png canvas real [MConverter.eu]/00207.png canvas real [MConverter.eu]/00208.png canvas real [MConverter.eu]/00209.png canvas real [MConverter.eu]/00210.png canvas real [MConverter.eu]/00211.png canvas real [MConverter.eu]/00212.png canvas real [MConverter.eu]/00213.png canvas real [MConverter.eu]/00214.png canvas real [MConverter.eu]/00215.png canvas real [MConverter.eu]/00216.png canvas real [MConverter.eu]/00217.png canvas real [MConverter.eu]/00218.png canvas real [MConverter.eu]/00219.png canvas real [MConverter.eu]/00220.png canvas real [MConverter.eu]/00221.png canvas real [MConverter.eu]/00222.png canvas real [MConverter.eu]/00223.png canvas real [MConverter.eu]/00224.png canvas real [MConverter.eu]/00225.png canvas real [MConverter.eu]/00226.png canvas real [MConverter.eu]/00227.png canvas real [MConverter.eu]/00228.png canvas real [MConverter.eu]/00229.png canvas real [MConverter.eu]/00230.png canvas real [MConverter.eu]/00231.png canvas real [MConverter.eu]/00232.png canvas real [MConverter.eu]/00233.png canvas real [MConverter.eu]/00234.png canvas real [MConverter.eu]/00235.png canvas real [MConverter.eu]/00236.png canvas real [MConverter.eu]/00237.png canvas real [MConverter.eu]/00238.png canvas real [MConverter.eu]/00239.png canvas real [MConverter.eu]/00240.png canvas real [MConverter.eu]/00241.png canvas real [MConverter.eu]/00242.png canvas real [MConverter.eu]/00243.png canvas real [MConverter.eu]/00244.png canvas real [MConverter.eu]/00245.png canvas real [MConverter.eu]/00246.png canvas real [MConverter.eu]/00247.png canvas real [MConverter.eu]/00248.png canvas real [MConverter.eu]/00249.png canvas real [MConverter.eu]/00250.png canvas real [MConverter.eu]/00251.png canvas real [MConverter.eu]/00252.png canvas real [MConverter.eu]/00253.png canvas real [MConverter.eu]/00254.png canvas real [MConverter.eu]/00255.png canvas real [MConverter.eu]/00256.png canvas real [MConverter.eu]/00257.png canvas real [MConverter.eu]/00258.png canvas real [MConverter.eu]/00259.png canvas real [MConverter.eu]/00260.png canvas real [MConverter.eu]/00261.png canvas real [MConverter.eu]/00262.png canvas real [MConverter.eu]/00263.png canvas real [MConverter.eu]/00264.png canvas real [MConverter.eu]/00265.png canvas real [MConverter.eu]/00266.png canvas real [MConverter.eu]/00267.png canvas real [MConverter.eu]/00268.png canvas real [MConverter.eu]/00269.png canvas real [MConverter.eu]/00270.png canvas real [MConverter.eu]/00271.png canvas real [MConverter.eu]/00272.png canvas real [MConverter.eu]/00273.png canvas real [MConverter.eu]/00274.png canvas real [MConverter.eu]/00275.png canvas real [MConverter.eu]/00276.png canvas real [MConverter.eu]/00277.png canvas real [MConverter.eu]/00278.png canvas real [MConverter.eu]/00279.png canvas real [MConverter.eu]/00280.png canvas real [MConverter.eu]/00281.png canvas real [MConverter.eu]/00282.png canvas real [MConverter.eu]/00283.png canvas real [MConverter.eu]/00284.png canvas real [MConverter.eu]/00285.png canvas real [MConverter.eu]/00286.png canvas real [MConverter.eu]/00287.png canvas real [MConverter.eu]/00288.png canvas real [MConverter.eu]/00289.png canvas real [MConverter.eu]/00290.png canvas real [MConverter.eu]/00291.png canvas real [MConverter.eu]/00292.png canvas real [MConverter.eu]/00293.png canvas real [MConverter.eu]/00294.png canvas real [MConverter.eu]/00295.png canvas real [MConverter.eu]/00296.png canvas real [MConverter.eu]/00297.png canvas real [MConverter.eu]/00298.png canvas real [MConverter.eu]/00299.png canvas real [MConverter.eu]/00300.png canvas real [MConverter.eu]/00301.png canvas real [MConverter.eu]/00302.png canvas real [MConverter.eu]/00303.png canvas real [MConverter.eu]/00304.png canvas real [MConverter.eu]/00305.png canvas real [MConverter.eu]/00306.png canvas real [MConverter.eu]/00307.png canvas real [MConverter.eu]/00308.png canvas real [MConverter.eu]/00309.png canvas real [MConverter.eu]/00310.png canvas real [MConverter.eu]/00311.png canvas real [MConverter.eu]/00312.png canvas real [MConverter.eu]/00313.png canvas real [MConverter.eu]/00314.png canvas real [MConverter.eu]/00315.png canvas real [MConverter.eu]/00316.png canvas real [MConverter.eu]/00317.png canvas real [MConverter.eu]/00318.png canvas real [MConverter.eu]/00319.png canvas real [MConverter.eu]/00320.png canvas real [MConverter.eu]/00321.png canvas real [MConverter.eu]/00322.png canvas real [MConverter.eu]/00323.png canvas real [MConverter.eu]/00324.png canvas real [MConverter.eu]/00325.png canvas real [MConverter.eu]/00326.png canvas real [MConverter.eu]/00327.png canvas real [MConverter.eu]/00328.png canvas real [MConverter.eu]/00329.png canvas real [MConverter.eu]/00330.png canvas real [MConverter.eu]/00331.png canvas real [MConverter.eu]/00332.png canvas real [MConverter.eu]/00333.png canvas real [MConverter.eu]/00334.png canvas real [MConverter.eu]/00335.png canvas real [MConverter.eu]/00336.png canvas real [MConverter.eu]/00337.png canvas real [MConverter.eu]/00338.png canvas real [MConverter.eu]/00339.png canvas real [MConverter.eu]/00340.png canvas real [MConverter.eu]/00341.png canvas real [MConverter.eu]/00342.png canvas real [MConverter.eu]/00343.png canvas real [MConverter.eu]/00344.png canvas real [MConverter.eu]/00345.png canvas real [MConverter.eu]/00346.png canvas real [MConverter.eu]/00347.png canvas real [MConverter.eu]/00348.png canvas real [MConverter.eu]/00349.png canvas real [MConverter.eu]/00350.png canvas real [MConverter.eu]/00351.png canvas real [MConverter.eu]/00352.png canvas real [MConverter.eu]/00353.png canvas real [MConverter.eu]/00354.png canvas real [MConverter.eu]/00355.png canvas real [MConverter.eu]/00356.png canvas real [MConverter.eu]/00357.png canvas real [MConverter.eu]/00358.png canvas real [MConverter.eu]/00359.png canvas real [MConverter.eu]/00360.png canvas real [MConverter.eu]/00361.png canvas real [MConverter.eu]/00362.png canvas real [MConverter.eu]/00363.png canvas real [MConverter.eu]/00364.png canvas real [MConverter.eu]/00365.png
+`;
+return data.split("\n")[index];
+}
+
+const frameCount = 365;
+
+const images = [];
+const imageSeq = {
+frame: 1,
+};
+
+for (let i = 0; i < frameCount; i++) {
+const img = new Image();
+img.src = files(i);
+images.push(img);
+}
+
+gsap.to(imageSeq, {
+frame: frameCount - 1,
+snap: "frame",
+ease: `none`,
+scrollTrigger: {
+scrub: .5,
+trigger: `#page3`,
+start: `top top`,
+end: `250% top`,
+scroller: `#main`,
+markers:true,
+},
+onUpdate: render,
+})
+images[1].onload = render;
+
+function render() {
+scaleImage(images[imageSeq.frame], context);
+}
+
+function scaleImage(img, ctx) {
+var canvas = ctx.canvas;
+var hRatio = canvas.width / img.width;
+var vRatio = canvas.height / img.height;
+var ratio = Math.max(hRatio, vRatio);
+var centerShift_x = (canvas.width - img.width * ratio) / 2;
+var centerShift_y = (canvas.height - img.height * ratio) / 2;
+ctx.clearRect(0, 0, canvas.width, canvas.height);
+ctx.drawImage(
+img,
+0,
+0,
+img.width,
+img.height,
+centerShift_x,
+centerShift_y,
+img.width * ratio,
+img.height * ratio
+);
+}
+ScrollTrigger.create({
+
+trigger: "#page3",
+pin: true,
+scroller: `#main`,
+start: `top top`,
+end: `600% top`,
+markers:true,
+});
+
+
+    </script>
+  </body>
+</html>
